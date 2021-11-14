@@ -348,4 +348,9 @@ const BacLieu = {
     ]
 }
 
-export { BacLieu }
+const blAttributes = {
+    Name: "Tỉnh Bạc Liêu",
+    Description: "Dân số 917.734 người, diện tích 2669 km2"
+}
+
+export { BacLieu, blAttributes }

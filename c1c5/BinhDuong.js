@@ -96,4 +96,9 @@ const BinhDuong = {
     ]
 }
 
-export { BinhDuong }
+const bdAttributes = {
+    Name: "Tỉnh Bình Dương",
+    Description: "Dân số 2.678.220 người, diện tích 2694,7 km2"
+}
+
+export { BinhDuong, bdAttributes }

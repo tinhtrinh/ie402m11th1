@@ -147,4 +147,9 @@ const CanTho = {
     ]
 }
 
-export { CanTho }
+const ctAttributes = {
+    Name: "Tỉnh Cần Thơ",
+    Description: "Dân số 1.244.736 người, diện tích 1439,2 km2"
+}
+
+export { CanTho, ctAttributes }

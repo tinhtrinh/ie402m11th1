@@ -201,4 +201,9 @@ const AnGiang = {
     ]
 }
 
-export { AnGiang }
+const agAttributes = {
+    Name: "Tỉnh An Giang",
+    Description: "Dân số 1.864.651 người, diện tích 3536,7 km2"
+}
+
+export { AnGiang, agAttributes }

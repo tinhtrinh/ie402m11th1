@@ -64,4 +64,9 @@ const BRVT = {
     ]
 }
 
-export { BRVT }
+const brvtAttributes = {
+    Name: "Tỉnh Bà Rịa - Vũng Tàu",
+    Description: "Dân số 1.181.302 người, diện tích 1980,8 km2"
+}
+
+export { BRVT, brvtAttributes }

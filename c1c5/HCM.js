@@ -1267,4 +1267,9 @@ const HCM = {
     ]
 }
 
-export { HCM }
+const hcmAttributes = {
+    Name: "Thành phố Hồ Chí Minh",
+    Description: "Dân số 9.411.805 người, diện tích 2061 km2"
+}
+
+export { HCM, hcmAttributes }

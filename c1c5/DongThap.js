@@ -387,4 +387,9 @@ const DongThap = {
     ]
 }
 
-export { DongThap }
+const dtAttributes = {
+    Name: "Tỉnh Đồng Tháp",
+    Description: "Dân số 1.586.438 người, diện tích 3383,8 km2"
+}
+
+export { DongThap, dtAttributes }

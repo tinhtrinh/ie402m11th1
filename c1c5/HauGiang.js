@@ -302,4 +302,9 @@ const HauGiang = {
     ]
 }
 
-export { HauGiang }
+const hgAttributes = {
+    Name: "Tỉnh Hậu Giang",
+    Description: "Dân số 728.255 người, diện tích 1621,8 km2"
+}
+
+export { HauGiang, hgAttributes }

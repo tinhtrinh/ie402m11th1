@@ -140,4 +140,9 @@ const SocTrang = {
     ]
 }
 
-export { SocTrang }
+const stAttributes = {
+    Name: "Tỉnh Sóc Trăng",
+    Description: "Dân số 1.181.835 người, diện tích 3311,8 km2"
+}
+
+export { SocTrang, stAttributes }

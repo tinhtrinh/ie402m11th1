@@ -377,4 +377,9 @@ const VinhLong = {
     ]
 }
 
-export { VinhLong }
+const vlAttributes = {
+    Name: "Tỉnh Vĩnh Long",
+    Description: "Dân số 1.022.408 người, diện tích 1475 km2"
+}
+
+export { VinhLong, vlAttributes }

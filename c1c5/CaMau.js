@@ -54,4 +54,9 @@ const CaMau = {
     ]
 }
 
-export {CaMau};
+const cmAttributes = {
+    Name: "Tỉnh Cà Mau",
+    Description: "Dân số 1.191.999 người, diện tích 5294,8 km2"
+}
+
+export {CaMau, cmAttributes};

@@ -237,4 +237,9 @@ const TraVinh = {
     ]
 }
 
-export { TraVinh }
+const tvAttributes = {
+    Name: "Tỉnh Trà Vinh",
+    Description: "Dân số 2358,2 người, diện tích 2358,2 km2"
+}
+
+export { TraVinh, tvAttributes }

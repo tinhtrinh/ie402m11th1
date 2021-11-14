@@ -154,4 +154,9 @@ const KienGiang = {
     ]
 }
 
-export { KienGiang }
+const kgAttributes = {
+    Name: "Tỉnh Kiên Giang",
+    Description: "Dân số 1.730.117 người, diện tích 6348,8 km2"
+}
+
+export { KienGiang, kgAttributes }

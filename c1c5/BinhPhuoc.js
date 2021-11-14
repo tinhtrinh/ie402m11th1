@@ -68,4 +68,9 @@ const BinhPhuoc = {
     ]
 }
 
-export { BinhPhuoc }
+const bpAttributes = {
+    Name: "Tỉnh Bình Phước",
+    Description: "Dân số 1.020.839 người, diện tích 6877 km2"
+}
+
+export { BinhPhuoc, bpAttributes }

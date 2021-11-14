@@ -140,4 +140,9 @@ const BenTre = {
     ]
 }
 
-export { BenTre }
+const btAttributes = {
+    Name: "Tỉnh Bến Tre",
+    Description: "Dân số 1.295.067 người, diện tích 2394,6 km2"
+}
+
+export { BenTre, btAttributes }

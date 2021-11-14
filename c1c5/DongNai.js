@@ -73,4 +73,9 @@ const DongNai = {
     ]
 }
 
-export { DongNai }
+const dnAttributes = {
+    Name: "Tỉnh Đồng Nai",
+    Description: "Dân số 3.236.248 người, diện tích 5905,7 km2"
+}
+
+export { DongNai, dnAttributes }

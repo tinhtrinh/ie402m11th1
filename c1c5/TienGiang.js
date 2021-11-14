@@ -438,4 +438,9 @@ const TienGiang = {
     ] 
 }
 
-export { TienGiang }
+const tgAttributes = {
+    Name: "Tỉnh Tiền Giang",
+    Description: "Dân số 1.783.165 người, diện tích 2510,5 km2"
+}
+
+export { TienGiang, tgAttributes }

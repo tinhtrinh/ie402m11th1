@@ -69,4 +69,9 @@ const TayNinh = {
     ]
 }
 
-export { TayNinh }
+const tnAttributes = {
+    Name: "Tỉnh Tây Ninh",
+    Description: "Dân số 1.190.852 người, diện tích 4041,4 km2"
+}
+
+export { TayNinh, tnAttributes }

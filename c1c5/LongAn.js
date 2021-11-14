@@ -1025,4 +1025,9 @@ const LongAn = {
     ]
 }
 
-export { LongAn }
+const laAttributes = {
+    Name: "Tỉnh Long An",
+    Description: "Dân số 1.744.138 người, diện tích 4490,2 km2"
+}
+
+export { LongAn, laAttributes }
