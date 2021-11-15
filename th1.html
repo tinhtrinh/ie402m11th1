@@ -1,19 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="initial-scale=1,maximum-scale=1,user-scalable=no"
-    />
-    <!--
-     ArcGIS API for JavaScript, https://js.arcgis.com
-     For more information about the intro-mapview sample,
-     read the original sample description at developers.arcgis.com.
-     https://developers.arcgis.com/javascript/latest/sample-code/intro-mapview/
-     -->
-    <title>
-      Bài tập thực hành 1
-    </title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <style>
       html,
       body,
@@ -30,26 +21,7 @@
       href="https://js.arcgis.com/4.21/esri/themes/light/main.css"
     />
     <script src="https://js.arcgis.com/4.21/"></script>
-
-    <script>
-      require(["esri/Map", "esri/views/MapView"], (Map, MapView) => {
-        const map = new Map({
-          basemap: "topo-vector"
-        });
-
-        const view = new MapView({
-          container: "viewDiv",
-          map: map,
-          zoom: 14,
-          center: [106.797552, 10.7721569] // longitude, latitude
-        });
-
-        const polygon = {
-          type: "polygon",
-          rings: {}
-        };
-      });
-    </script>
+    <script src="./Highway.js"></script>
   </head>
 
   <body>
